@@ -18,6 +18,9 @@ namespace ReactjsAspNetWebForms
 			//	.AddScript("~/Scripts/First.jsx")
 			//	.AddScript("~/Scripts/Second.jsx");
 
+			ReactSiteConfiguration.Configuration
+				.AddScript("~/Scripts/components/helloWorld2.jsx");
+
 			// If you use an external build too (for example, Babel, Webpack,
 			// Browserify or Gulp), you can improve performance by disabling 
 			// ReactJS.NET's version of Babel and loading the pre-transpiled 
